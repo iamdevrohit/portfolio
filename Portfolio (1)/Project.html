@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- Font Link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awsome Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="Project.css">
+  <link rel="stylesheet" href="Media.css">
+
+</head>
+
+<body>
+
+  <header class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="navbar navbar-expand-lg bg-white">
+            <a class="navbar-brand" href="index.html">
+              <img src="Image/LOGO.png" class="logo" alt=""></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
+              <i class="fa-solid fa-bars" style="color: #0033ff;"></i>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center" id="Navbarnav">
+              <ul class="navbar-nav ">
+                <li class="nav-item">
+                  <a class="nav-link " href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active fw-bold" style="color: #0d6efd" aria-current="page"
+                    href="Project.html">Project</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="About.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="Contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileMenu" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">Rohit
+                <img src="" alt="">
+              </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav ">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active fw-bold" style="color: #0d6efd" aria-current="page"
+                    href="Project.html">Project</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="About.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+
+  <!-- Main Content -->
+
+  <div class=" container my-5 py-5 text-center">
+    <h1 class="fw-bolder ">Projects<span id="Dot">.</span></h1>
+  </div>
+
+
+  <div class="container marketing">
+
+    <!-- START THE FEATURETTES -->
+
+    <div class="row featurette py-5">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-bold lh-1">Watch Party (Kotlin, Java)</h2>
+        <p class="lead">It's an Watch party room app for 2 people where users can connect with each other while watching
+          same content on video player along with having video call and chat at the same time with sync control with
+          each player to provide users shared experience for watching same content</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="Image/watchparty.PNG" class="img-fluid rounded-5" alt="">
+      </div>
+    </div>
+
+
+    <div class="row featurette py-5 mb-5">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1 fw-bold">TinyTyke Bluetooth Connecting App (Java)</h2>
+        <p class="lead">An app that connects with Fitpolo (H706 smartwatch) and track user's fitness-exercises heart rate & progress over time and perfect companion for smartwatches. Get all health metrics right from calories burnt to sleep hours over time using Bluetooth.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="Image/tinytyke.PNG" class="img-fluid rounded-5" alt="">
+      </div>
+    </div>
+
+
+    <div class="row featurette py-5 mb-5">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1 fw-bold">MetaBill (Flutter)</h2>
+        <p class="lead">It's an Accounting/Inventory Web Application converted into a mobile app (Android-iOS) where
+          users can manage sales/purchasing accounting, GST/NON-GST bills manage, Manage Inventory, QR Based Scan
+          Inventory entries and Easily create sales Invoices.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="Image/Default image.png" class="img-fluid rounded-5" alt=">
+      </div>
+    </div>
+
+    <div class="row featurette py-5 mb-5">
+      <div class="col-md-7 ">
+        <h2 class="featurette-heading fw-normal lh-1 fw-bold">TimeHR (Kotlin)</h2>
+        <p class="lead">Solution for managing corporate employee daily attendance also easy to track employees' time, assign tasks to teams or individuals and track each task easily.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="Image/timehr.PNG" class="img-fluid rounded-5" alt="">
+      </div>
+    </div>
+
+    <div class="row featurette py-5 mb-5">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1 fw-bold">Patria Club (Flutter)</h2>
+        <p class="lead">It's an Quick MVP product designed in 6 days from designs to logic implementation for android-iOS users. user can create profile, view hotel services, book hotel service apply coupons for particular services.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="Image/patriaclub.PNG" class="img-fluid rounded-5" alt="">
+      </div>
+    </div>
+
+
+    <div class="row featurette py-5">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-bold lh-1">WhatsApp Automate Message (Kotlin, Java)</h2>
+        <p class="lead">Solution for Message automation tool to forward messages from the background in WhatsApp by importing contact list Manually and excel sheet the message-forwarding mechanism handled in the foreground which doesn't require any user interaction </p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="Image/Default image.png" class="img-fluid rounded-5" alt="">
+      </div>
+    </div>
+
+    <div class="row featurette py-5 mb-5">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1 fw-bold">BlueTect 706 (Java)</h2>
+        <p class="lead">An app that connects with Fitpolo (H706 smartwatch) and track user's fitness-exercises heart rate & progress over time and perfect companion for smartwatches. Get all health metrics right from calories burnt to sleep hours over time using Bluetooth.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="Image/Default image.png" class="img-fluid rounded-5" alt="">
+      </div>
+    </div>
+
+
+    
+
+  </div>
+
+
+  <!-- /END THE FEATURETTES -->
+
+  </div>
+
+
+  <!-- <footer>
+    <div class="col-xxl-8">
+      <div class="text-center mt-5">
+        <div class="line"></div>
+        <div class="d-flex justify-content-center fs-2 gap-5">
+          <a class="text-gradient" href="#!"><i class="fa-brands fa-linkedin"></i></a>
+          <a class="text-gradient" href="#!"><i class="fa-brands fa-square-x-twitter"></i></a>
+          <a class="text-gradient" href="#!"><i class="fa-brands fa-square-github"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer> -->
+
+
+  <!-- <footer class="footer text-bottom">
+    <hr class="my-9">
+    <div class="container">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-6 py-2 gap-5">
+          <div class="d-flex justify-content-center fs-2 gap-5">
+            <a class="text-gradient" href="#!"><i class="fa-brands fa-linkedin"></i></a>
+            <a class="text-gradient" href="#!"><i class="fa-brands fa-square-x-twitter"></i></a>
+            <a class="text-gradient" href="#!"><i class="fa-brands fa-square-github"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer> -->
+
+
+
+
+
+
+
+
+  <!-- Bootstrap jS -->
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

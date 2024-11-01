@@ -1,0 +1,37 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    height: 80px;
+    font-weight: 500;
+}
+
+#Navbarnav ul li a {
+    margin: 15px;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+
+.logo{
+    width: 100px;
+}
+
+
+
+
+#submitButton{
+   background-color: #007FFF;
+}
+
+#Dot{
+    color: #0d6efd;
+    font-size: 50px;
+}
+
+.hr{
+    width: 200px;
+}
